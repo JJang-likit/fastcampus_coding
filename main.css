@@ -1,0 +1,96 @@
+body {
+  color: #333;
+  line-height: 1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url("https://heropy.blog/css/images/pattern.png");
+  background-color: #EEE;
+}
+.form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.07);
+  background-color: #FFF;
+  margin-bottom: 20px;
+}
+.form p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.form input {
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.form .btn {
+  width: 200px;
+  height: 40px;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #FFA32D;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 400px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.07);
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  display: none;
+}
+.card.show {
+  display: flex;
+}
+.card .photo {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+.card .name {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 16px;
+}
+.card .title,
+.card .phone,
+.card .email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.card .material-symbols-outlined {
+  margin-right: 8px;
+  font-size: 18px;
+}
